@@ -21,6 +21,7 @@ public class LoginTest
 	{
 		driver.get("https://gmail.com");
 		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("suyal.bhuwan7");
+		driver.findElement(By.xpath("//*[@id='identifierNext']/content")).click();
 	}
 	
 	@AfterSuite
